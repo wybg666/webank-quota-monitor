@@ -1,0 +1,31 @@
+{
+  "interval_seconds": 15,
+  "failure_limit": 3,
+  "pause_start": "00:00",
+  "pause_end": "07:00",
+  "target_products": [],
+  "known_products": [],
+  "new_products_enabled": false,
+  "require_positive_quota": true,
+  "notify_quota_changes": true,
+  "notification_cooldown": 60,
+  "notifications": {
+    "voice": {
+      "enabled": false
+    },
+    "email": {
+      "enabled": false,
+      "host": "",
+      "port": 465,
+      "security": "ssl",
+      "username": "",
+      "password": "",
+      "sender": "",
+      "recipients": []
+    },
+    "bark": {
+      "enabled": false,
+      "device_key": ""
+    }
+  }
+}

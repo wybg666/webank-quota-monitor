@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+settings.json
+events.json
+*.log
+.env
+.env.*
+*.exe
+build/
+dist/
